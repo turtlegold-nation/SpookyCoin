@@ -110,8 +110,8 @@ const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 0; // unused
 /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
 const uint64_t DEFAULT_MIXIN_V0                              = 0;
 const uint64_t DEFAULT_MIXIN_V1                              = 0;
-const uint64_t DEFAULT_MIXIN_V2                              = 0; //
-const uint64_t DEFAULT_MIXIN_V3                              = 0; // unused
+const uint64_t DEFAULT_MIXIN_V2                              = 1; //
+const uint64_t DEFAULT_MIXIN_V3                              = 1; // unused
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(0);
 const uint64_t DEFAULT_DUST_THRESHOLD_V2                     = DEFAULT_DUST_THRESHOLD; // unused

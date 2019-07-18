@@ -226,7 +226,7 @@ std::string get_status_string(CryptoNote::COMMAND_RPC_GET_INFO::response iresp) 
 
   ss << "Height: " << iresp.height << "/" << iresp.network_height
      << " (" << get_sync_percentage(iresp.height, iresp.network_height) << "%) "
-     << "on mainnet"
+     << "on mainnet,"
      << (iresp.synced ? "synced, " : "syncing, ")
      << "net hash " << get_mining_speed(iresp.hashrate) << ", "
      << "v" << +iresp.major_version << ","
